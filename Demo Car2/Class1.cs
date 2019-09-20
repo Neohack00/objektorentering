@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Demo_Car2
 {
-    class Class1
+    class Car
     {
+        public string RegistrationNumber { get; set; }
+        public string Color { get; set; }
+        public int HorsePower { get; set; }
+        public string Model { get; set; }
+        public string Maker { get; set; }
     }
 }

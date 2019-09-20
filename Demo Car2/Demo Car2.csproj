@@ -7,7 +7,7 @@
     <ProjectGuid>{FCF19B83-66C6-458F-819D-BBCA3EEF3E71}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Demo_Car2</RootNamespace>
-    <AssemblyName>Demo_Car2</AssemblyName>
+    <AssemblyName>Demo Car2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

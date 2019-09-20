@@ -19,7 +19,9 @@ namespace Demo_T40920
             Console.WriteLine("Car created sucessfully");
             Console.ReadLine();
             Console.WriteLine("We have a {0} car with registation {1} and {2}",
-                c.Color, c.RegistrationNumber, c.HorsePower);
+                c.Color, 
+                c.RegistrationNumber,
+                c.HorsePower);
             Console.ReadLine();
 
         }
